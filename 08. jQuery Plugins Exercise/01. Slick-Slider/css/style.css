@@ -7,5 +7,18 @@ header {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
+    box-shadow: -1px 2px 68px 0px rgba(0,0,0,0.53);
+}
+
+.cats{
+    width: 80%;
+    margin: auto;
+}
+.slick-prev:before{
+    color: black;
+}
+
+.slick-next:before{
+    color: black;
 }

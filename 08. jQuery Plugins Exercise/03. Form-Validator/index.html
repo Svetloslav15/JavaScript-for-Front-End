@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Validator</title>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="jQuery-Form-Validator/form-validator/jquery.form-validator.min.js"></script>
     <!--Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -17,17 +19,17 @@
     <div class="form-group">
         <div class="username-group form-group">
             <label for="username">Username</label>
-            <input id="username" type="text" class="form-control" placeholder="Username...">
+            <input id="username" type="text" class="form-control" placeholder="Username..." data-validation="alphanumeric" data-validation="length" data-validation-length="3-10">
         </div>
 
         <div class="password-group form-group">
             <label for="password">Password</label>
-            <input id="password" type="password" class="form-control" placeholder="Password...">
+            <input id="password" type="password" class="form-control" placeholder="Password..." data-validation="length" data-validation-length="min8">
         </div>
 
         <div class="email-group form-group">
             <label for="password">E-mail</label>
-            <input id="email" type="email" class="form-control" placeholder="E-mail...">
+            <input id="email" type="email" class="form-control" placeholder="E-mail..." data-validation="email">
         </div>
 
         <div class="form-group">
@@ -49,7 +51,7 @@
 
         <div class="form-group">
             <p>
-                <input type="checkbox">
+                <input type="checkbox" data-validation="required">
                 I agree to the <a href="#" target="_blank">terms of service</a>
             </p>
         </div>
@@ -59,5 +61,6 @@
         </div>
     </div>
 </form>
+<script src="app.js"></script>
 </body>
 </html>
