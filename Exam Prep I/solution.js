@@ -5,6 +5,7 @@
        let company = $('#company').val();
        let branch = $('#branch').val();
        let result = `${firstname[0]}.${lastname}@${branch}-${company}.com`.toLowerCase();
+       $('#result').css("font-weight", "bold");
        $('#result').val(result);
     });
 }());
