@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 60%;
+}
+.bgimage {
+    width:100%;
+    height:500px;
+    background: url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.bgimage h5 {
+    color:white;
+    text-shadow:2px 2px #333;
+}
+.section{
+    padding-bottom: 1em;
+    padding-left: 10em;
+}
+.heading{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 79px;
+}
+.unnammed-class{
+    padding-left: 10em;
+}
+.h3-custom{
+    font-size: 2.35rem;
+}
+.header-img{
+    padding-top: 9em;
+}
+
+.jumbo-dark{
+    background: #343A40;
+    color: white;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
