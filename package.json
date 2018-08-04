@@ -2,6 +2,8 @@
   "name": "",
   "version": "",
   "dependencies": {
-    "jquery-form-validator": "^2.3.77"
+    "jquery-form-validator": "^2.3.77",
+    "node": "^10.8.0",
+    "sass": "^1.10.3"
   }
 }
