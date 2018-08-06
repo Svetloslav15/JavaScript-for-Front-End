@@ -1,0 +1,11 @@
+body{
+    background: url("img/hands-with-pencil-and-ruler.jpg");
+    background-size: cover;
+}
+
+body> div{
+    background-color: #17A2B8;
+}
+.card-header{
+    background-color: #17A2B8;
+}
