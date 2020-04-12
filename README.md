@@ -1,8 +1,7 @@
 # JavaScript for FrontEnd
 Here are all exercises from the course JavaScript for FrontEnd in SoftUni.
 
-##Course Content
-
+## Course Content
 [02. Introduction to JavaScript Exercise](https://github.com/Svetloslav15/JavaScript-for-Front-End/tree/master/02.%20Introduction%20to%20JavaScript%20Exercise)</br>
 [03. Introduction to DOM and Events - Lab](https://github.com/Svetloslav15/JavaScript-for-Front-End/tree/master/03.%20Introduction%20to%20DOM%20and%20Events%20-%20Lab)</br>
 [04. Introduction to DOM and Events - Exercise](https://github.com/Svetloslav15/JavaScript-for-Front-End/tree/master/04.%20Introduction%20to%20DOM%20and%20Events%20-%20Exercise)</br>
